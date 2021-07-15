@@ -28,7 +28,7 @@ module.exports.run = async ({ event, api, Currencies }) => {
 		return api.sendMessage(`Bạn đang trong thời gian chờ\nVui lòng thử lại sau: ${minutes} phút ${(seconds < 10 ? "0" : "")}${seconds} giây!`, threadID);
     }
 
-    else return api.sendMessage(`Bạn đã nhận ${rewardCoin} coins, để có thể tiếp tục nhận, vui lòng quay lại sau 12 tiếng`, threadID, async () => {
+    else return api.sendMessage(`Bạn đã nhận ${rewardCoin} coins, để có thể tiếp tục nhận, vui lòng quay lại sau 1 tiếng`, threadID, async () => {
         await Currencies.increaseMoney(senderID, rewardCoin);
         data.dailyCoolDown = Date.now();
         await Currencies.setData(senderID, { data });
