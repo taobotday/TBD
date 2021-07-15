@@ -8,8 +8,8 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "",
-    "PREFIX": "!",
+    "BOTNAME": "[ / ] - Miraiv2",
+    "PREFIX": "/",
     "ADMINBOT": [
         "ID1",
         "ID2"
