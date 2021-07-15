@@ -3,12 +3,12 @@ module.exports.config = {
 	version: "0.0.1",
 	hasPermssion: 0,
 	credits: "Miraiv2",
-	description: "Nhận 1000 coins mỗi giờ!",
+	description: "Nhận 5000 coins mỗi giờ!",
 	commandCategory: "economy",
     cooldowns: 5,
     envConfig: {
         cooldownTime: 3600000,
-        rewardCoin: 1000
+        rewardCoin: 5000
     }
 };
 
