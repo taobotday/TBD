@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "join",
 	eventType: ["log:subscribe"],
 	version: "1.0.1",
-	credits: "Mirai Team",
+	credits: "Miraiv2",
 	description: "Thông báo bot hoặc người vào nhóm",
 	dependencies: {
 		"fs-extra": ""
