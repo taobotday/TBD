@@ -1,0 +1,49 @@
+{
+    "DeveloperMode": true,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "selfListen": false,
+    "commandDisabled": [],
+    "eventDisabled": [],
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "Mirav2",
+    "PREFIX": "/",
+    "ADMINBOT": [
+        "ID1",
+        "ID2"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "checktt": {
+        "maxColumn": 10
+    },
+    "daily": {
+        "cooldownTime": 3600000,
+        "rewardCoin": 5000
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "rankup": {
+        "autoUnsend": true,
+        "unsendMessageAfter": 5
+    },
+    "weather": {
+        "OPEN_WEATHER": "081c82065cfee62cb7988ddf90914bdd"
+    },
+    "work": {
+        "cooldownTime": 600000
+    },
+    "log": {
+        "enable": true
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyAzbXr9uPxZmberrXRFd4vMOju2xjjfLbg"
+    }
+}
