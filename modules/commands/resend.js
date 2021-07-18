@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: 'resend',
 	version: '2.0.0',
-	hasPermssion: 1,
+	hasPermssion: 2,
 	credits: 'Miraiv2',
 	description: 'Hiển thị tin nhắn sau khi bị gỡ.',
 	commandCategory: 'general',
