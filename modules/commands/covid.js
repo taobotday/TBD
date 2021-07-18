@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "covid",
 	version: "1.0.2",
 	hasPermssion: 0,
-	credits: "Miraiv2",
+	credits: "KHIÊM DỄ THƯƠNG",
 	description: "Lấy thông tin về tình hình dịch bệnh COVID-19",
 	commandCategory: "other",
 	cooldowns: 5,
