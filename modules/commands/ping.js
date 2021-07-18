@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: 'ping',
 	version: '0.0.3',
-	hasPermssion: 1,
+	hasPermssion: 2,
 	credits: 'Miraiv2',
 	description: 'tags toàn bộ thành viên',
 	commandCategory: 'system',
