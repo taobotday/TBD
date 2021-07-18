@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "KHIÊM DỄ THƯƠNG",
 	description: "Làm toán.",
 	commandCategory: "study",
-	usages: "math 1 + 2",
+	usages: "[number]",
 	cooldowns: 5,
 	dependencies: {
 		"axios": "",
