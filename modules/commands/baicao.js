@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "baicao",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "Miraiv2",
+	credits: "KHIÊM DỄ THƯƠNG",
 	description: "Game bài cào dành cho nhóm",
 	commandCategory: "game-mp",
 	usages: "[start/join/list/leave/test]",
