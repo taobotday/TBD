@@ -2,7 +2,7 @@ module.exports.config = {
 	name: 'checktt',
 	version: '0.0.1',
 	hasPermssion: 0,
-	credits: 'Miraiv2',
+	credits: 'KHIÊM DỄ THƯƠNG',
 	description: 'Kiểm tra lượt tương tác trong nhóm',
 	commandCategory: 'system',
 	usages: '[all/tags]',
