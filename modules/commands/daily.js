@@ -2,7 +2,7 @@ module.exports.config = {
 	name: 'daily',
 	version: '0.0.1',
 	hasPermssion: 0,
-	credits: 'Miraiv2',
+	credits: 'KHIÊM DỄ THƯƠNG',
 	description: 'Nhận 500 đô la 20 phút!.',
 	commandCategory: 'economy',
 	cooldowns: 5,
