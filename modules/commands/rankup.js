@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "rankup",
 	version: "0.0.2",
-	hasPermssion: 1,
+	hasPermssion: 2,
 	credits: "Miraiv2",
 	description: "Thông báo rankup cho từng nhóm, người dùng",
 	commandCategory: "system",
