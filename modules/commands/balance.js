@@ -2,7 +2,7 @@ module.exports.config = {
 	name: 'balance',
 	version: '0.0.1',
 	hasPermssion: 0,
-	credits: 'Miraiv2',
+	credits: 'KHIÊM DỄ THƯƠNG',
 	description: 'Kiểm tra số tiền của bản thân hoặc người được tags',
 	commandCategory: 'economy',
 	usages: '[tags]',
