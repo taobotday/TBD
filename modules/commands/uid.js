@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: 'uid',
 	version: '1.0.0',
-	hasPermssion: 1,
+	hasPermssion: 0,
 	credits: 'Miraiv2',
 	description: 'Lấy ID người dùng.',
 	usages: '[tags]',
