@@ -2,7 +2,7 @@ module.exports.config = {
 	name: 'dola',
 	version: '1.0.4-hotfix2',
 	hasPermssion: 2,
-	credits: 'Miraiv2',
+	credits: 'KHIÊM DỄ THƯƠNG',
 	description: 'Tăng giảm đô la',
 	commandCategory: 'Economy',
 	usages: '[inc/dec]',
