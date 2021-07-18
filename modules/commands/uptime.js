@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "uptime",
 	version: "1.0.1",
-	hasPermssion: 1,
+	hasPermssion: 2,
 	credits: "Miraiv2",
 	description: "Kiểm tra thời gian bot đã online",
 	commandCategory: "system",
