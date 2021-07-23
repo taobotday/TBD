@@ -8,7 +8,7 @@ module.exports.config = {
 	cooldowns: 5,
 	envConfig: {
 		cooldownTime: 600000,
-		rewardCoin: 500
+		rewardCoin: 1000
 	}
 };
 
