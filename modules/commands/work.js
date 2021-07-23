@@ -40,7 +40,7 @@ module.exports.run = async ({ event, api, Currencies }) => {
 			'THỢ CẮT TÓC',
 			'CHẠY XE ÔM'
 		];
-		const amount = Math.floor(Math.random() * 200);
+		const amount = Math.floor(Math.random() * 500);
 		return api.sendMessage(
 			`Bạn ${
 				job[Math.floor(Math.random() * job.length)]
