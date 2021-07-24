@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event, args, Currencies }) => {
 		all.sort((a, b) => b.exp - a.exp);
 		let num = 0;
 		let msg = {
-			body: 'Top 10 người dùng có level cao nhất sever !'
+			body: 'Top 10 người dùng có level cao nhất sever!.'
 		};
 		for (var i = 0; i < 10; i++) {
 			let data = await api.getUserInfo(all[i].userID);
@@ -44,7 +44,7 @@ module.exports.run = async ({ api, event, args, Currencies }) => {
 		all.sort((a, b) => b.money - a.money);
 		let num = 0;
 		let msg = {
-			body: '» Top 10 người dùng giàu nhất sever !'
+			body: 'Top 10 người dùng giàu nhất sever!.'
 		};
 		for (var i = 0; i < 10; i++) {
 			let data = await api.getUserInfo(all[i].userID);
