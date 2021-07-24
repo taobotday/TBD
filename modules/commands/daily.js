@@ -3,7 +3,7 @@ module.exports.config = {
 	version: '0.0.1',
 	hasPermssion: 0,
 	credits: 'Miraiv2',
-	description: 'Nhận 500 đô la 10 phút!.',
+	description: 'Nhận 1000 đô la 10 phút!.',
 	commandCategory: 'economy',
 	cooldowns: 5,
 	envConfig: {
