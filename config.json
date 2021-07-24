@@ -1,0 +1,30 @@
+{
+    "DeveloperMode": true,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "selfListen": false,
+    "commandDisabled": [],
+    "eventDisabled": [],
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "",
+    "PREFIX": "!",
+    "ADMINBOT": [
+        "ID1",
+        "100060844549883",
+        "100047235527184",
+        "100011379168884",
+        "100027115326857",
+        "100063804879939"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "checktt": {
+        "maxColumn": 10
+    }
+}
