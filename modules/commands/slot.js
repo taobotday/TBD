@@ -63,7 +63,7 @@ module.exports.run = async function({ api, event, args, Currencies }) {
 			api.sendMessage(
 				`🎰 ${slotItems[number[0]]} | ${slotItems[number[1]]} | ${
 					slotItems[number[2]]
-				} 🎰\nBạn đã thắng với ${moneyBet} đô la.`,
+				} 🎰\nBạn đã THẮNG với ${moneyBet} đô la.`,
 				event.threadID,
 				event.messageID
 			);
@@ -74,7 +74,7 @@ module.exports.run = async function({ api, event, args, Currencies }) {
 			api.sendMessage(
 				`🎰 » ${slotItems[number[0]]} | ${slotItems[number[1]]} | ${
 					slotItems[number[2]]
-				} « 🎰\nBạn đã thua và mất ${moneyBet} đô la.`,
+				} « 🎰\nBạn đã THUA và mất ${moneyBet} đô la.`,
 				event.threadID,
 				event.messageID
 			);
