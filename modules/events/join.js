@@ -19,7 +19,7 @@ module.exports.run = async function({ api, event }) {
 	) {
 		api.changeNickname(
 			`[ ${global.config.PREFIX} ] - ${
-				!global.config.BOTNAME ? 'TAO BOT ĐÂY' : global.config.BOTNAME
+				!global.config.BOTNAME ? 'BOT CỜ BẠC' : global.config.BOTNAME
 			}`,
 			threadID,
 			api.getCurrentUserID()
