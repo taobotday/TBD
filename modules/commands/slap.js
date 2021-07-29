@@ -3,7 +3,7 @@ module.exports.config = {
 	version: '2.2.2',
 	hasPermssion: 0,
 	credits: 'TBĐ',
-	description: '',
+	description: 'Cú đấm yêu thương.',
 	commandCategory: 'general',
 	usages: '[tags]',
 	cooldowns: 5,
