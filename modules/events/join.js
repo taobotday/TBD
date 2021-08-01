@@ -2,7 +2,7 @@ module.exports.config = {
 	name: 'join',
 	eventType: ['log:subscribe'],
 	version: '1.0.1',
-	credits: 'Mirai Team',
+	credits: 'TBĐ',
 	description: 'Thông báo bot hoặc người vào nhóm',
 	dependencies: {
 		'fs-extra': ''
@@ -19,7 +19,7 @@ module.exports.run = async function({ api, event }) {
 	) {
 		api.changeNickname(
 			`[ ${global.config.PREFIX} ] - ${
-				!global.config.BOTNAME ? 'BOT XỊN ĐÂY' : global.config.BOTNAME
+				!global.config.BOTNAME ? 'TAO BOT ĐÂY' : global.config.BOTNAME
 			}`,
 			threadID,
 			api.getCurrentUserID()
